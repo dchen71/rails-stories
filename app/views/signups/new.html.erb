@@ -1,0 +1,20 @@
+<div class="container">
+	<div class="bg-signup">
+		<a href="" id="menu"><img src="/assets/open.svg"></a>
+		
+		<div class="signup-main">
+			<h2>Get the latest updates from Stories</h2>
+			
+			<%= form_for(@signup) do |f| %>
+			<div class="signups">
+				<p id="firstname">First name</p>
+    			<%= f.text_field :firstname, :id => 'data'%><br>  
+    			<p id="email">Email</p>
+    			<%= f.text_field :email, :id => 'data'%><br>  
+  				<%= f.submit "Join", class:'submit' %> 
+			</div>
+			<% end %>
+		</div>
+	</div>
+
+</div>
