@@ -52,7 +52,7 @@ Homepage
 
 .bg1-home {
 	z-index: 1;
-	background-image: image-url("bg1.jpg");
+	background-image: asset-data-url('bg1.jpg');
 	background-position: 50% 50%;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -94,7 +94,7 @@ Homepage
 
 .bg2-home {
 	height:400px;
-	background-image: image-url('bg2.jpg');
+	background-image: asset-data-url('bg2.jpg');
 	background-position: center;
 }
 
